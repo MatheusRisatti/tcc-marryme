@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import './card.css'
 import '../../global.css'
+import { ShoppingBag } from 'lucide-react';
 import axios from "axios";
 
 interface Gift {
@@ -53,7 +54,8 @@ function GiftCard({ gift }: { gift: Gift }) {
                 <h3>Preço: {formatPriceToBRL(gift.price)}</h3>
             </div>
             <div className="card-button">
-                <button type="button">Comprar</button>
+            <button className="button" ><ShoppingBag className="button-img" /> <span>Comprar</span></button>
+
             </div>
         </div>
         
