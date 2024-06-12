@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.about{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about-title{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.about-title>h1{
+    font-family: 'Great Vibes', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 10px 0px -20px 0px;
+}
+
+.about-couple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-couple>img{
+    height: 150px;
+    width: 150px; 
+    border-radius: 400px;
+}
+
+.about-text{
+    width: 700px;
+    font-family: 'Poppins';
+}
