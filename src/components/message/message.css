@@ -11,7 +11,86 @@
 
 .message-container{
         border: solid #fff 2px;
-        border-radius: 15px;
+        border-radius: 25px;
         height: 1600px;
         width: 70%;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
 }
+
+.message-content{
+        border: solid #fff 2px;
+        border-radius: 25px;
+        height: 40%;
+        width: 80%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+
+h1,h2,h3,p{
+        font-family: 'Poppins', Arial, sans-serif;
+}
+
+input{
+        border: none;
+        outline: none;
+}
+
+.message-title{
+        margin-top: 30px;
+        font-weight: 400;
+        color: white;
+}
+
+form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.message-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+}
+
+#name{
+        background: transparent;
+        height: 50px;
+        width: 300px;
+        border: solid 1px white;
+        border-radius: 20px;
+        color: #fff;
+        margin-right: 30px;
+        margin-left: -70px;
+}
+
+
+#email{
+        background: transparent;
+        height: 50px;
+        width: 300px;
+        border: solid 1px white;
+        border-radius: 20px;
+}
+
+
+
+#message{
+        background: transparent;
+        height: 400px;
+        width: 700px;
+        border: solid 1px white;
+        border-radius: 20px;
+}
+
+::placeholder{
+        color: #fff;
+}
+
+      
