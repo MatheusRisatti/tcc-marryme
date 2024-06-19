@@ -6,7 +6,9 @@ export function Message(){
         <div className="message">
             <div className="message-container">
                 <div className="message-content">
-                    <h1 className='message-title'>Mande sua mensagem para os Noivos</h1>
+                    <div className="message-title">
+                        <h1>Mande sua mensagem para os Noivos</h1>
+                    </div>
                     <form action="">
                         <div className="message-header">
                             <input type="text" placeholder='Nome' id='name' />

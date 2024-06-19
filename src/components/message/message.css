@@ -20,7 +20,7 @@
 }
 
 .message-content{
-        border: solid #fff 2px;
+        /* border: solid #fff 2px; */
         border-radius: 25px;
         height: 40%;
         width: 80%;
@@ -40,7 +40,13 @@ input{
 }
 
 .message-title{
-        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -50px;
+}
+
+.message-title>h1{
         font-weight: 400;
         color: white;
 }
@@ -50,6 +56,8 @@ form{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-top: 20px;
+        color: #fff;
 }
 
 .message-header{
@@ -57,13 +65,14 @@ form{
         align-items: center;
         justify-content: center;
         width: 700px;
+        margin-bottom: 15px;
 }
 
 #name{
         background: transparent;
         height: 50px;
         width: 300px;
-        border: solid 1px white;
+        border: solid 2px white;
         border-radius: 20px;
         color: #fff;
         margin-right: 30px;
@@ -75,7 +84,8 @@ form{
         background: transparent;
         height: 50px;
         width: 300px;
-        border: solid 1px white;
+        border: solid 2px white;
+        color: #fff;
         border-radius: 20px;
 }
 
@@ -83,9 +93,11 @@ form{
 
 #message{
         background: transparent;
-        height: 400px;
+        height: 300px;
         width: 700px;
-        border: solid 1px white;
+        
+        color: #fff;
+        border: solid 2px white;
         border-radius: 20px;
 }
 
