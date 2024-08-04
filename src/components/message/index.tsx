@@ -1,3 +1,4 @@
+import { Input } from '../ui/input'
 import './message.css'
 
 export function Message(){
@@ -14,11 +15,12 @@ export function Message(){
                             <input type="text" placeholder='Nome' id='name' />
                             <input type="text" placeholder='Email' id='email' />
                         </div>
-                            <input type="text" placeholder='Digite sua messagem aqui' id='message' />
+                            <textarea name="subject" placeholder='Digite sua messagem aqui' id='message' ></textarea>
+                            <Input placeholder='Digite sua mensagem aqui' className='mt-10 h-80 w-[44rem] bg-transparent border-solid border-2 border-white rounded-[20px] text-white' ></Input>
                     </form>
                 </div>
             </div>
-        </div>
+        </div>      
         </>
     )
 }
