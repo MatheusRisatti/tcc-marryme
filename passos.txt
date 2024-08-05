@@ -1,0 +1,11 @@
+npm i 
+
+npm i json-server
+
+npm install -D tailwindcss postcss autoprefixer
+
+npm install -D tailwindcss postcss autoprefixer
+
+npm i -D @types/node
+
+extensão tailwind

@@ -4,6 +4,7 @@ import { Gift } from './components/gift'
 import { Message } from './components/message'
 import { Location } from './components/location'
 import './global.css'
+import { Footer } from './components/footer'
 // import carrossel1 from './assets/img/carossel1.png'
 
 export function App() {
@@ -14,6 +15,7 @@ export function App() {
       <Gift />
       <Message />
       <Location />
+      <Footer />
     </>
   )
 }
