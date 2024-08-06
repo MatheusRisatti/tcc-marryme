@@ -5,6 +5,7 @@ import { Message } from './components/message'
 import { Location } from './components/location'
 import './global.css'
 import { Footer } from './components/footer'
+import { Confirm } from './components/confirm'
 // import carrossel1 from './assets/img/carossel1.png'
 
 export function App() {
@@ -14,6 +15,7 @@ export function App() {
       <About />
       <Gift />
       <Message />
+      <Confirm />
       <Location />
       <Footer />
     </>

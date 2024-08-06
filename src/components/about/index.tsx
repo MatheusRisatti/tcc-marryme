@@ -2,6 +2,7 @@ import './about.css'
 import '../../global.css'
 import noiva from '../../assets/img/noiva.png'
 import noivo from '../../assets/img/noivo.png'
+import divider from '@/assets/img/divider.svg'
 
 
 export function About() {
@@ -10,9 +11,9 @@ export function About() {
             <div className='about'>
 
                 <div className='about-title'>
-                    <h2>___________________________________</h2>
+                    <img className='w-96 rotate-180' src={divider} alt="" />
                     <h1>Sobre os Noivos</h1>
-                    <h2>___________________________________</h2>
+                    <img className='w-96 mb-12' src={divider} alt="" />
                 </div>
                 <div className="about-content">
                     <div className="about-couple">

@@ -1,26 +1,28 @@
-import { Input } from '../ui/input'
-import './message.css'
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
+import { Textarea } from "../ui/textarea";
 
 export function Message(){
     return(
         <>
-        <div className="message">
-            <div className="message-container">
-                <div className="message-content">
-                    <div className="message-title">
-                        <h1>Mande sua mensagem para os Noivos</h1>
+            <div className="flex items-center justify-center flex-col">
+
+                <div className=" w-[50rem] flex items-center justify-center flex-col">
+                    
+                    <h1 className="font-vbs text-5xl mt-24 mb-12">Mande sua mensagem para os noivos</h1>
+                    
+                    <div className="w-full flex items-center justify-center">
+                        <Input className=" w-64 mr-12" placeholder="Nome"></Input>
+                        <Input className=" w-64 " placeholder="Email"></Input>
                     </div>
-                    <form action="">
-                        <div className="message-header">
-                            <input type="text" placeholder='Nome' id='name' />
-                            <input type="text" placeholder='Email' id='email' />
-                        </div>
-                            <textarea name="subject" placeholder='Digite sua messagem aqui' id='message' ></textarea>
-                            <Input placeholder='Digite sua mensagem aqui' className='mt-10 h-80 w-[44rem] bg-transparent border-solid border-2 border-white rounded-[20px] text-white' ></Input>
-                    </form>
+
+                    <div className="w-full flex items-center justify-center mt-4">
+                        <Textarea className="w-[35rem] h-64" placeholder="Digite sua mensagem"></Textarea>
+                    </div>
+
+                    <Button className="w-80 mt-4 rounded-3xl" variant={"outline"}>Enviar</Button>
                 </div>
             </div>
-        </div>      
         </>
     )
 }
