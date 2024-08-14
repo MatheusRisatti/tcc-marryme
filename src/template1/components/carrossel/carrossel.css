@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: url(../../assets/img/carrossel1.png) no-repeat center/cover;
+  background: url(@/assets/img/carrossel1.png) no-repeat center/cover;
 }
 
 .carrossel-title {

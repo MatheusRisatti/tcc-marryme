@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import './card.css'
-import '../../global.css'
+import '../../../global.css'
 import { ShoppingBag } from 'lucide-react';
 import axios from "axios";
 

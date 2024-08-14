@@ -1,5 +1,5 @@
 import { Header } from "../header";
-import '../../global.css'
+import '../../../global.css'
 import './carrossel.css'
 
 export function Carrossel(){

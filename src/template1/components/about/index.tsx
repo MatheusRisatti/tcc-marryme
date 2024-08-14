@@ -1,7 +1,7 @@
 import './about.css'
-import '../../global.css'
-import noiva from '../../assets/img/noiva.png'
-import noivo from '../../assets/img/noivo.png'
+import '../../../global.css'
+import noiva from '@/assets/img/noiva.png'
+import noivo from '@/assets/img/noivo.png'
 import divider from '@/assets/img/divider.svg'
 
 

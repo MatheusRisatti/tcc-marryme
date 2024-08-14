@@ -1,6 +1,6 @@
 import './header.css'
-import '../../global.css'
-import logo from '../../assets/img/logo.png'
+import '../../../global.css'
+import logo from '@/assets/img/logo.png'
 
 export function Header() {
     return (
