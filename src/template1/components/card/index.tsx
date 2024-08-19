@@ -3,6 +3,17 @@ import './card.css'
 import '../../../global.css'
 import { ShoppingBag } from 'lucide-react';
 import axios from "axios";
+import QrCode from "@/assets/img/qr.png"
+
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogFooter,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+  } from "@/components/ui/dialog"
 
 interface Gift {
     id: number;
@@ -54,7 +65,29 @@ function GiftCard({ gift }: { gift: Gift }) {
                 <h3>Preço: {formatPriceToBRL(gift.price)}</h3>
             </div>
             <div className="card-button">
-            <button className="button" ><ShoppingBag className="button-img" /> <span>Comprar</span></button>
+
+            <Dialog>
+      <DialogTrigger asChild>
+        <button className="button" ><ShoppingBag className="button-img" /> <span>Comprar</span></button>
+      </DialogTrigger>
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Conclua sua compra</DialogTitle>
+          <DialogDescription>
+            Faça a compra do presente pelo site ou envie o pix aos noivos
+          </DialogDescription>
+        </DialogHeader>
+        <h2>Faça o pix:</h2>
+        <img src={QrCode} className="w-72" />
+
+        <h2>Ou faça a compra pelo Site:</h2>
+        <a href="https://abrir.link/tGJkj" className="text-blue-500">Cafeteira Expresso Amazon</a>
+        
+        <DialogFooter>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+            
 
             </div>
         </div>

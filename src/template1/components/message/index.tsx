@@ -1,13 +1,13 @@
-import { Button } from "../ui/button";
-import { Input } from "../ui/input";
-import { Textarea } from "../ui/textarea";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 export function Message(){
     return(
         <>
             <div className="flex items-center justify-center flex-col">
 
-                <div className=" w-[50rem] flex items-center justify-center flex-col">
+                <div className=" w-[35rem] flex items-center justify-center flex-col">
                     
                     <h1 className="font-vbs text-5xl mt-24 mb-12">Mande sua mensagem para os noivos</h1>
                     
