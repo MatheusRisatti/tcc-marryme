@@ -1,16 +1,16 @@
 import { Header } from "../header";
 import '../../../global.css'
-import './carrossel.css'
-
-export function Carrossel(){
+import './home.css'
+  
+export function Home(){
     return(
         <>
-        <div className="carrossel">
+        <div className="home">
             <header>
                 <Header />
             </header>
             
-            <div className="carrossel-title">
+            <div className="home-title">
                 <h1>Yasmin e Bruno</h1>
             </div>
 

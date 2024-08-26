@@ -1,5 +1,5 @@
 import { About } from './components/about'
-import { Carrossel } from './components/carrossel'
+import { Home } from './components/home'
 import { Gift } from './components/gift'
 import { Message } from './components/message'
 import { Location } from './components/location'
@@ -11,7 +11,7 @@ import { Confirm } from './components/confirm'
 export function App() {
   return (
     <>
-      <Carrossel />
+      <Home />
       <About />
       <Gift />
       <Message />

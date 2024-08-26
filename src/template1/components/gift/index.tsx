@@ -1,4 +1,5 @@
 import { Card } from '../card'
+import { SectionTitle } from '../section-title'
 import './gift.css'
 
 
@@ -9,7 +10,7 @@ export function Gift() {
             
             <div className="gift-content">
                 <div className="gift-title">
-                    <h1>Presentes</h1>
+                    <SectionTitle title='Presentes'></SectionTitle>
                 </div>
                 <div className="gift-list">
                     <Card />
