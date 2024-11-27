@@ -7,7 +7,7 @@ import '../global.css'
 import { Footer } from './components/footer'
 import { Confirm } from './components/confirm'
 
-export function App() {
+export function Template2() {
 
   return (
     <>

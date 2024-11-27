@@ -12,8 +12,8 @@ module.exports = {
   prefix: "",
   theme: {
     fontFamily: {
-      'ppns': ['Poppins'],
-      'vbs':['Great Vibes'],
+      "ppns": ['Poppins'],
+      "vbs":['Great Vibes'],
     },
     container: {
       center: true,

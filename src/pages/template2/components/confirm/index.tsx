@@ -26,8 +26,8 @@ export function Confirm(){
                             </div>
                         
                             <div className="flex items-center w-12 gap-1 ">
-                                <Checkbox id="yes"/>
-                                <Label htmlFor="yes">Não</Label>
+                                <Checkbox id="no"/>
+                                <Label htmlFor="no">Não</Label>
                             </div>
                         
                         </div>

@@ -81,7 +81,7 @@ function GiftCard({ gift }: { gift: Gift }) {
         <img src={QrCode} className="w-72" />
 
         <h2>Ou faça a compra pelo Site:</h2>
-        <a href="https://abrir.link/tGJkj" className="text-blue-500">Cafeteira Expresso Amazon</a>
+        <a href="https://abrir.link/tGJkj" className="text-blue-500">{gift.name}</a>
         
         <DialogFooter>
         </DialogFooter>
