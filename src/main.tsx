@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { Template1 } from './pages/template1/';
 import { Template2 } from './pages/template2/';
+import { Template3 } from './pages/template3';
 import { Menu } from './pages/menu';
 
 export const router = createBrowserRouter([
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
   {
     path: "/template2",
     element: <Template2/>,
+  },
+  {
+    path: "/template3",
+    element: <Template3/>,
   }
 ]);
 

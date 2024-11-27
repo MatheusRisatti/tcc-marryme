@@ -11,14 +11,14 @@ export function MenuSection({ title, text }: MenuTitleProps){
         <div className='flex justify-center items-center flex-col w-76 gap-4'>
 
         <div className='flex justify-center items-center gap-2'>
-            <img src={line} /> 
-                <h1 className='font-vbs text-6xl tracking-[2px]'>{title}</h1> 
+            <img src={line} className='w-24'/> 
+                <h1 className='font-vbs text-5xl tracking-[2px]'>{title}</h1> 
             <img src={line} />
         </div>
 
-            <h1 className='text-7xl font-thin font-vbs'>{text}</h1>
+            <h1 className='text-6xl font-thin font-vbs'>{text}</h1>
 
-            <img src={divider} className='mt-[-25px] w-[300px]' />
+            <img src={divider} className='mt-[-25px] w-[250px]' />
 
         </div>
         </>
