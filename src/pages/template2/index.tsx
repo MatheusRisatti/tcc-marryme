@@ -6,8 +6,12 @@ import { Location } from './components/location'
 import '../global.css'
 import { Footer } from './components/footer'
 import { Confirm } from './components/confirm'
+import { Couple } from '@/@types/couple'
 
-export function Template2() {
+interface TemplateProps {
+  couple: Couple
+}
+export function Template2({ couple }: TemplateProps) {
 
   return (
     <>

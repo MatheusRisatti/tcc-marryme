@@ -12,6 +12,7 @@ module.exports = {
   prefix: "",
   theme: {
     fontFamily: {
+      "rds": ['Redressed'],
       "ppns": ['Poppins'],
       "vbs":['Great Vibes'],
     },

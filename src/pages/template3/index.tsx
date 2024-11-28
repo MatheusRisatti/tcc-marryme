@@ -14,6 +14,11 @@ export function Template3() {
     <div className='bg-slate-700'>
       <Home />
       <About  />
+      <Gift />
+      <Message />
+      <Confirm />
+      <Location />
+      <Footer />
     </div>
     </>
   )

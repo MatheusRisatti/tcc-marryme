@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label"
 export function Confirm(){
     return(
         <>
-            <div className="flex items-center justify-center flex-col">
+            <div className=" flex items-center justify-center flex-col">
                 <div className=" w-[35rem] flex items-center justify-center flex-col">
                     
                     <h1 className="font-vbs text-5xl mt-24 mb-12">Confirmar Prenseça</h1>

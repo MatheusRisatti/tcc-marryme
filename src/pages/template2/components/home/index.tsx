@@ -1,5 +1,5 @@
 import { Header } from "../header";
-import '../../../global.css'
+// import '../../../global.css'
 import { Counter } from "../counter";
 
 export function Home() {
@@ -13,8 +13,8 @@ export function Home() {
                     <Header />
                 </header>
 
-                <div className="home-title h-[100vh] flex flex-col items-center justify-center text-white">
-                    <h1 className="font-vbs font-normal">Mapoko & Estudo</h1>      
+                <div className="h-[100vh] flex flex-col items-center justify-center text-white">
+                    <h1 className=" font-normal">Mapoko & Estudo</h1>      
                     <div className="flex flex-col justify-center items-center w-96">
                         <div className="flex gap-2">
     

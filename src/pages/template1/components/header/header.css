@@ -1,21 +1,21 @@
-.header-container {
+/* .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: transparent;
-}
+} */
 
-.header-container-logo {
+/* .header-container-logo {
   width: 150px;
   margin-left: 30px;
-}
-
+} */
+/* 
 header {
   width: 100%;
-  /* background-color: red;  */
-}
+  background-color: red; 
+} */
 
-nav {
+/* nav {
   margin-top: 15px;
 
   width: 800px;
@@ -35,4 +35,4 @@ nav > button {
 
 button:hover {
   cursor: pointer;
-}
+} */

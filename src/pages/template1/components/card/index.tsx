@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import './card.css'
 import '../../../global.css'
 import { ShoppingBag } from 'lucide-react';
-import axios from "axios";
+import {couples} from "@/api/couples";
 import QrCode from "@/assets/img/qr.png"
 
 import {
@@ -27,9 +27,9 @@ export function Card(){
     const [gifts, setGifts] = useState<Gift[]>([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3333/gifts')
+        couples.getAll()
             .then((response) => {
-                setGifts(response.data);
+                setGifts(response);
             })
             .catch((error) => {
                 console.error('Erro ao buscar presentes:', error);
@@ -46,12 +46,14 @@ export function Card(){
 }
 
 function GiftCard({ gift }: { gift: Gift }) {
-    const formatPriceToBRL = (price: number) => {
-        return 'R$ '+ price.toLocaleString('pt-BR', {
-            style: 'currency',
-            currency: 'BRL',
-        });
-    };
+
+    console.log(gift)
+    // const formatPriceToBRL = (price: number) => {
+    //     return 'R$ '+ price.toLocaleString('pt-BR', {
+    //         style: 'currency',
+    //         currency: 'BRL',
+    //     });
+    // };
 
     return (
         <>
@@ -62,7 +64,7 @@ function GiftCard({ gift }: { gift: Gift }) {
             </div>
             <div className="card-text">
                 <h1>{gift.name}</h1>
-                <h3>Preço: {formatPriceToBRL(gift.price)}</h3>
+                {/* <h3>Preço: {formatPriceToBRL(gift.price)}</h3> */}
             </div>
             <div className="card-button">
 
