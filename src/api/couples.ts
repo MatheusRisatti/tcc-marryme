@@ -19,8 +19,16 @@ export const couples = {
       images,
       slug,
       template_option,
-      wife:people!couples_wife_fkey(id, name),
-      husband:people!couples_husband_fkey(id, name)
+      gift_intro,
+      ceremony_intro,
+      ceremony_img,
+      ceremony_loc,
+      event_intro,
+      event_img,
+      event_loc,
+      event_date,
+      wife:people!couples_wife_fkey(id, name, bio, image),
+      husband:people!couples_husband_fkey(id, name, bio, image)
     `
 
     const { data, error } = await supabase

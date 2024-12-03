@@ -1,9 +1,12 @@
+import './styles/global.css'
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { TemplatePage } from './pages/template'
+
+import { App } from './App.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <TemplatePage />
+    <App />
   </React.StrictMode>,
 )
